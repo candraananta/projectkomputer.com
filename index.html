@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa IT</title>
+    <!-- Menyertakan CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Menyertakan CSS FontAwesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Menyertakan CSS khusus yang kita buat sendiri -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- Brand Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo Jasa IT">
+            </a>
+            <!-- Button toggle untuk mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu Navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Menu Home -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <!-- Menu Services -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <!-- Menu Portfolio -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <!-- Menu Contact -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1 class="display-4">Selamat Datang di </h1>
+            <h3>JagoanKomputer.com</h3>
+            <p class="lead">Kami menyediakan layanan IT terbaik untuk Anda.</p>
+            <!-- Tombol untuk membuka popup kontak -->
+            <button class="btn btn-primary">Get in Touch</button>
+        </div>
+    </div>
+
+    <!-- Bagian Services -->
+    <div id="services" class="container my-5">
+        <h2 class="section-title text-center">Our Services</h2>
+        <div class="row text-center">
+            <!-- Card pertama -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-laptop-code"></i>PC/Laptop Service</h5>
+                        <p class="card-text">Layanan perbaikan PC atau Laptop yang rusak</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card kedua -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-network-wired"></i> Network Solution</h5>
+                        <p class="card-text">Kami menyediakan solusi jaringan yang handal dan aman untuk bisnis Anda.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card ketiga -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-video"></i> CCTV</h5>
+                        <p class="card-text">Pemasangan dan perawatan sistem CCTV yang canggih.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card keempat -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-print"></i> Printer</h5>
+                        <p class="card-text">Instalasi perawatan dan sharing printer yang canggih sesuai dengan kebutuhan anda.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card kelima -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-laptop-house"></i> Remote IT </h5>
+                        <p class="card-text">Layanan remote IT untuk memudahkan maintenance dari jarak jauh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card keenam -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fab fa-windows"></i> Install / Reinstall Windows & Apps</h5>
+                        <p class="card-text">Solusi terbaik & terupdate perawatan PC / Laptop anda
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Layanan -->
+    <div id="layanan" class="container my-5">
+        <p>Kami menyediakan berbagai layanan IT yang dirancang untuk memenuhi kebutuhan bisnis Anda, mulai dari
+            instalasi dan konfigurasi sistem, pemantauan keamanan, hingga dukungan dan pemeliharaan infrastruktur IT
+            Anda. Layanan kami dirancang untuk memberikan solusi yang efektif dan efisien, dengan fokus pada kualitas
+            dan kepuasan pelanggan.</p>
+    </div>
+    <!-- Tabel harga layanan -->
+    <div id="pricing-table" class="container my-5">
+        <h3 class="text-center">Tabel Harga Layanan</h3>
+        <table class="table table-bordered table-striped mt-3">
+            <thead class="table-primary">
+                <tr>
+                    <th>Layanan</th>
+                    <th>Deskripsi</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Baris harga layanan PC/laptop service -->
+                <tr>
+                    <td>PC/Laptop Service</td>
+                    <td>Layanan perbaikan berbagai jenis PC atau laptop dengan teknisi datang kelokasi</td>
+                    <td>Harga Mulai dari Rp. 200.000 (Tergantung kersukasakan)</td>
+                </tr>
+                <!-- Baris harga layanan Network Solution -->
+                <tr>
+                    <td>Network Solution</td>
+                    <td>Pembangunan infrastruktur IT, setting router, mikrotik / wifi</td>
+                    <td>Hub.sales</td>
+                </tr>
+                <!-- Baris harga layanan CCTV -->
+                <tr>
+                    <td>CCTV</td>
+                    <td>Pembangunan infrastruktur IT yang handal dan efisien, termasuk jaringan dan server.</td>
+                    <td>Hub.Sales</td>
+                </tr>
+                <!-- Baris harga layanan Printer -->
+                <tr>
+                    <td>Printer</td>
+                    <td>Instalasi perawatan dan sharing printer yang canggih sesuai dengan kebutuhan anda.</td>
+                    <td>Mulai dari Rp. 150.000 </td>
+                </tr>
+                <!-- Baris harga layanan Remote IT -->
+                <tr>
+                    <td>Remote IT</td>
+                    <td>Layanan remote IT untuk memudahkan maintenance dari jarak jauh.</td>
+                    <td>Rp.99.999 / sesi</td>
+                </tr>
+            </tbody>
+            <!-- Baris harga layanan Install Windows -->
+            <tr>
+                <td>Install / Reinstall Windows & Apps</td>
+                <td>Solusi terbaik & terupdate perawatan PC / Laptop anda</td>
+                <td>On Site Inslation Rp. 149.999 / unit</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    </div>
+
+    <!-- Bagian Portfolio -->
+    <div id="portfolio" class="container my-5">
+        <h2 class="section-title text-center">Our Portfolio</h2>
+        <div class="row">
+            <!-- Gambar pertama galeri -->
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/600" alt="Gallery Image 1" class="img-fluid gallery">
+            </div>
+            <!-- Gambar kedua galeri -->
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/600" alt="Gallery Image 2" class="img-fluid gallery">
+            </div>
+            <!-- Gambar ketiga galeri -->
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/600" alt="Gallery Image 3" class="img-fluid gallery">
+            </div>
+            <!-- Gambar keempat galeri -->
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/600" alt="Gallery Image 4" class="img-fluid gallery">
+            </div>
+            <!-- Gambar kelima galeri -->
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/600" alt="Gallery Image 5" class="img-fluid gallery">
+            </div>
+            <!-- Gambar keenam galeri -->
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/600" alt="Gallery Image 6" class="img-fluid gallery">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Partner -->
+    <div id="partners" class="container my-5">
+        <h2 class="section-title text-center">In Partner With</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Mikrotik_Logo.svg" alt="Mikrotik"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Cisco_logo_blue_2016.svg" alt="Cisco"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo-Fortinet-Red.svg" alt="Fortinet"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Hikvision_logo.svg" alt="Hikvision"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/KFC_logo.svg" alt="KFC"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/McDonald%27s_logo.svg" alt="McDonald's"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.svg"
+                    alt="YouTube" class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/05/HokBen_logo.png" alt="Hokben"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/48/Yoshinoya_logo.svg" alt="Yoshinoya"
+                    class="img-fluid partner-logo">
+            </div>
+            <div class="col-md-1 col-sm-2 col-3 mb-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Dahua_logo.svg" alt="Dahua"
+                    class="img-fluid partner-logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Kontak -->
+    <div id="contact" class="container my-5 contact-section">
+        <h2 class="section-title text-center">Kontak Kami</h2>
+        <div class="contact-details text-center">
+            <p><i class="fas fa-phone"></i> Admin: 081233416234</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: sales@jagoankomputer.com</p>
+            <p><i class="fa-solid fa-house"></i> Alamat : Perum Swan Menganti Mas Regency Blok. AA-05 Menganti Gresik</p>
+        </div>
+    </div>
+
+     <!-- Footer -->
+     <div class="footer py-3 text-center">
+        <p>&copy; 2024 Jasa IT. All rights reserved.</p>
+    </div>
+
+    <!-- Popup Kontak -->
+    <div class="contact-popup">
+        <div class="popup-content">
+            <button class="btn-close close-popup">&times;</button>
+            <h4>Kontak Kami</h4>
+            <p><i class="fas fa-phone"></i> Admin: 081233416234</p>
+        </div>
+    </div>
+
+    <!-- Modal Promo -->
+    <div class="modal fade" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="promoModalLabel">Special Promo !</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    "Masalah IT? Gak usah ribet! Cuma 79k, kita atasin dari jarak jauh. Hemat, gaul, dan praktis!"       </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Lihat Promo</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menyertakan JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Menyertakan JS khusus yang kita buat sendiri -->
+    <script src="script.js"></script>
+</body>
+
+</html>

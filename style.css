@@ -1,0 +1,99 @@
+/* Styling untuk Navbar */
+.navbar {
+    background-color: #007BFF; /* Warna background navbar biru muda */
+    color: #fff; /* Warna teks putih */
+}
+
+.nav-link {
+    color: #fff !important; /* Warna teks link navbar putih */
+}
+
+.nav-link:hover {
+    color: #FFD700 !important; /* Warna teks link navbar saat dihover kuning */
+}
+
+/* Styling untuk Hero Section */
+.hero {
+    background-color: #007BFF; /* Warna background hero section biru muda */
+    color: #fff; /* Warna teks putih */
+    padding: 100px 0; /* Padding atas bawah 100px */
+    text-align: center; /* Teks rata tengah */
+}
+
+.hero .btn-primary {
+    background-color: #FFD700; /* Warna background tombol kuning */
+    border: none; /* Menghilangkan border tombol */
+    color: #007BFF; /* Warna teks tombol biru muda */
+}
+
+/* Styling untuk Judul Section */
+.section-title {
+    font-size: 2.5rem; /* Ukuran font 2.5rem */
+    margin-bottom: 40px; /* Margin bawah 40px */
+}
+
+/* Styling untuk Bagian Kontak */
+.contact-section {
+    background-color: #007BFF; /* Warna background kontak putih tulang */
+    padding: 40px 0; /* Padding atas bawah 40px */
+}
+
+.contact-details {
+    font-size: 1.2rem; /* Ukuran font 1.2rem */
+    color: #f3f5f7; /* Warna teks biru */
+}
+
+.contact-details i {
+    margin-right: 10px; /* Margin kanan 10px untuk ikon */
+}
+
+/* Styling untuk footer */
+.footer {
+    background-color: #343A40; /* Warna background footer */
+    color: #fff; /* Warna teks footer */
+}
+
+/* Styling untuk popup kontak */
+.contact-popup {
+    display: none; /* Popup tersembunyi secara default */
+    position: fixed; /* Popup tetap di posisi */
+    bottom: 10px; /* Posisi 10px dari bawah */
+    right: 10px; /* Posisi 10px dari kanan */
+    background: #007BFF; /* Warna background putih */
+    border: 1px solid #ccc; /* Border abu-abu */
+    padding: 15px; /* Padding dalam 15px */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Bayangan kotak */
+    border-radius: 5px; /* Membuat sudut popup melengkung */
+}
+
+.contact-popup .popup-content {
+    text-align: center; /* Teks rata tengah */
+}
+
+.contact-popup .btn-close {
+    float: right; /* Tombol close di sebelah kanan */
+    background: none; /* Tidak ada background */
+    border: none; /* Tidak ada border */
+    font-size: 1.2rem; /* Ukuran font 1.2rem */
+}
+
+/* Styling untuk logo partner */
+.partner-logo {
+    max-width: 100%; /* Lebar maksimal 100% dari kontainer */
+    height: auto; /* Tinggi otomatis mengikuti rasio */
+    max-height: 50px; /* Tinggi maksimal 50px */
+}
+
+/* Gaya CSS untuk elemen dengan ID 'contact' */
+#contact {
+    border-radius: 40px; /* Membuat sudut tumpul dengan radius 10 piksel */
+    /* background-color: #f8f9fa; Memberikan warna latar belakang abu-abu terang */
+    padding: 20px; /* Menambahkan ruang di dalam kotak untuk estetika yang lebih baik */
+}
+
+/* Gaya CSS untuk elemen dengan kelas 'contact-section' */
+.contact-section {
+    text-align: center; /* Mengatur teks di dalam elemen ini menjadi rata tengah */
+    margin: auto; /* Mengatur margin otomatis agar elemen ini berada di tengah secara horizontal */
+    max-width: 600px; /* Membatasi lebar maksimum elemen ini hingga 600 piksel */
+}
